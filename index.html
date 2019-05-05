@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+		}
+		.biru-muda { background-color: lightblue; }
+		.kotak {
+			width: 25px;
+			height: 25px;
+			margin: 10px auto;
+		}
+		.merah {background-color: red;}
+
+		.hijau {background-color: green;}
+
+		.biru {background-color: blue;}
+
+		button {
+			width: 130px;
+			height: 40px;
+			margin: 10px ;
+			border: none;
+			transition: 0.5s;
+			background-color: #54a0ff;
+			box-shadow: 1px 1px 3px #000;
+			border-radius: 99em;
+			
+
+		}
+
+		button:hover {
+			background-color: #2e86de;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Play with colors</h1>
+	
+	<button type="button" id="tombol">Ubah Warna</button>
+	<br><br>
+	<div class="kotak merah"></div>
+	<input type="range" name="merah" min="0" max="255">
+	<div class="kotak hijau"></div>
+	<input type="range" name="hijau" min="0" max="255">
+	<div class="kotak biru"></div>
+	<input type="range" name="biru" min="0" max="255">
+	<p>Created by <a href="https://www.facebook.com/ahmadramadhan009">Achmad Ramadhan</a></p>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
